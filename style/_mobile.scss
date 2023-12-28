@@ -1,0 +1,31 @@
+@media (max-width: 767px) {
+  .center {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+.header {
+  margin-top: 15px;
+
+  &-heading {
+    font-size: 28px;
+    letter-spacing: 0.84px;
+   
+  }
+}
+  
+.main{
+  margin-top: 40px;
+
+  &-list{
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+}
+
+  
+  .line::before,
+  .line::after {
+    width: 72px;
+  }
+}
